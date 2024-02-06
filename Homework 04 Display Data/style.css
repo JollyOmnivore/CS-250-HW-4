@@ -1,0 +1,52 @@
+nav {
+    background-color: white;
+    width: 50%;
+
+}
+nav ul{
+    padding 10px;
+    margin: 0px;
+    list-style-type: none;
+
+}
+nav ul li {
+display: inline;
+padding: 5px;
+
+}
+nav ul li a:link, nav ul li a:visited {
+    color: gray;
+    font-size: 30px
+}
+
+nav ul li a:hover {
+    color:blue;
+}
+
+#styledtable table {
+margin-left:20px;
+margin-right: 20px;
+border: thin solid black;
+border-collapse: collapse;
+}
+
+#styledtable td, #styledtable th {
+border:thick solid black;
+padding 5px;
+}
+#styledtable capt{
+padding-bottom 5px;
+text-align: center;
+}
+#styledtable tr:nth-child(even){
+background: gray;
+}
+#styledtable th {
+background-color:black;
+color: #00adee
+}
+
+li {
+    list-style-image: url('among-us-twerk.gif');
+
+}
